@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+:root {
+	--font-merriweather: 'Merriweather', ui-monospace;
+	--font-chewy: 'Chewy';
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/fonts/Merriweather/merriweather-italic-variable.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/fonts/Merriweather/merriweather-regular-variable.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Chewy';
+	src: url('/fonts/Chewy/chewy-regular.woff2') format('woff2');
+}
+
+@theme {
+	--font-secondary: var(--font-merriweather);
+	--font-tertiary: var(--font-chewy);
+	--color-accent: var(--col-secondary);
+	--color-primary: var(--col-secondary);
+}
+
+@layer base {
+	code {
+		@apply rounded-md;
+		@apply py-1;
+		@apply px-2;
+	}
+
+	.link {
+		position: relative;
+		cursor: pointer;
+		&:hover,
+		&:focus {
+			color: var(--col-accent);
+			&:before {
+				width: 100%;
+				left: 0em;
+				border-color: currentColor;
+			}
+		}
+		&:before {
+			border: 1px solid transparent;
+			transition: all 0.3s;
+			position: absolute;
+			content: '';
+			bottom: -2px;
+			left: 50%;
+			width: 0%;
+		}
+		&.disabled {
+			opacity: 0.5;
+			cursor: not-allowed;
+			color: inherit;
+			&:before {
+				border-color: transparent;
+			}
+		}
+	}
+}

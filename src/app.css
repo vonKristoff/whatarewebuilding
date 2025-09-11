@@ -1,0 +1,37 @@
+@import './tailwind-utils.css';
+
+:root {
+	--font-primary: 'Poppins';
+	/* --font-secondary: 'Lato'; */
+
+	--col-accent: #12a57a;
+	--col-secondary: #320f9c;
+	--col-primary: #14a57a;
+
+	--col-black: #111;
+	--col-white: #fff;
+
+	/* --bg-primary: var(--col-page);
+	--bg-secondary: var(--col-primary-lightest); */
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-wrap: break-word;
+	color: var(--col-black);
+	background-color: gold;
+	/* font-family: var(--font-primary); */
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-secondary);
+}
+
+a {
+	cursor: pointer;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
