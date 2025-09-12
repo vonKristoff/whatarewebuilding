@@ -15,7 +15,7 @@ export const load = ({ url }) => {
 			siteName: 'Whatarewebuilding',
 			images: [
 				{
-					url: 'https://https://threejjjs-cdn.s3.eu-west-2.amazonaws.com/whatarewebuilding/wawb.jpg',
+					url: 'https://threejjjs-cdn.s3.eu-west-2.amazonaws.com/whatarewebuilding/wawb.jpg',
 					alt: 'Og Image Alt',
 					width: 800,
 					height: 600,
