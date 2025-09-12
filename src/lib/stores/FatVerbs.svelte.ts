@@ -21,6 +21,9 @@ class FatVerbStore {
 	get current(): Verb | null {
 		return this.#current;
 	}
+	get verbs() {
+		return FATVERBS;
+	}
 }
 
 export default new FatVerbStore();

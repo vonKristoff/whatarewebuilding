@@ -4,7 +4,7 @@ export function setThemeColour(cols = ['default']) {
 		return size !== 1 ? cols[Math.floor(Math.random() * size)] : 'default';
 	};
 }
-export function generateCircles({ width, height, maxR = 40, minR = 20, spacing = 4 }) {
+export function generateCircles({ orient, width, height, maxR = 40, minR = 20, spacing = 4 }) {
 	let circles = [];
 
 	const minRadius = minR;
@@ -43,10 +43,11 @@ export function generateCircles({ width, height, maxR = 40, minR = 20, spacing =
 
 		// ensure draw empty center
 		if (step.attempts === 1) {
+			let radius = orient === 'LANDSCAPE' ? width : height;
 			circles.push({
 				x: width / 2,
 				y: height / 2,
-				radius: width / 4,
+				radius: radius / 4,
 				show: false
 			});
 		}

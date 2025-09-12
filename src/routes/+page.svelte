@@ -4,6 +4,7 @@
 	import HeroMessage from '$lib/components/HeroMessage.svelte';
 	import FactsCard from '$lib/components/FactsCard.svelte';
 	import Icon from '$lib/components/Icon.svelte';
+
 	const EMAIL = 'hello@whatarewebuilding.xyz';
 	let copy = $state(false);
 	async function copyToClipboard() {
@@ -60,7 +61,7 @@
 		<p class="text-2xl">Let's share the economy and make it together</p>
 		<div class="relative">
 			<span>Want to talk?</span>
-			<span>Get in touch</span>
+			<span>Get in touch 👀</span>
 			{#if copy}
 				<div
 					data-message
@@ -97,6 +98,10 @@
 </footer>
 
 <style>
+	main {
+		width: 100%;
+		overflow-x: hidden;
+	}
 	a {
 		text-decoration: underline;
 	}

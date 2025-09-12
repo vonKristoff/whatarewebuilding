@@ -13,11 +13,11 @@
 	];
 </script>
 
-<div class="grid h-screen w-screen place-content-center gap-24 bg-amber-200 px-8">
+<div class="grid h-screen w-screen place-content-center gap-8 bg-amber-200 px-8 md:gap-24">
 	<div class="heading opacity-50">
 		<div class="flex flex-col items-center justify-center text-lg md:flex-row">
 			<Icon src="shapes" ctx="pigeon" size="2em" />
-			<span>A local <strong>Web Development</strong> company; asking you:</span>
+			<span>your local <strong>Web Development</strong> service says</span>
 		</div>
 	</div>
 	<div class="browser-wrap md:auto min-w-full rounded-2xl border-4 bg-amber-300">
@@ -44,10 +44,12 @@
 		<div class="content grid h-full place-content-center px-8">
 			<div class="flex flex-col items-center gap-12">
 				<div class="op flex flex-col items-center">
-					<h3 class="font-secondary text-5xl font-bold md:text-6xl">Walthamstow</h3>
-					<p class="font-secondary text-xl italic md:text-3xl">What are we building today?</p>
+					<h3 class="font-secondary text-4xl font-bold sm:text-5xl md:text-6xl">Walthamstow</h3>
+					<p class="font-secondary text-lg italic sm:text-xl md:text-3xl">
+						What are we building today?
+					</p>
 				</div>
-				<span class="font-tertiary text-4xl md:text-6xl">
+				<span class="font-tertiary text-3xl sm:text-4xl md:text-6xl">
 					<TypeWriter texts={products} />
 				</span>
 			</div>
