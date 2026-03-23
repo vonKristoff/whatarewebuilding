@@ -9,7 +9,11 @@
 		'A private server',
 		'Shared documents',
 		'Video streaming',
-		'Automation with other services'
+		'Automation with other services',
+		'Chatbots',
+		'Shopify integration',
+		'Automation with AI',
+		'Controlling everything from a spreadsheet'
 	];
 </script>
 

@@ -34,22 +34,30 @@
 			<FactsCard
 				title="Local startups"
 				description="Have you thought about"
-				bullets={['Google Business', 'Nicer Email', 'Your own cloud', 'Better messaging apps']}
+				bullets={[
+					'Google Business',
+					'Nicer Email',
+					'Your own cloud infra',
+					'Shopify API',
+					'Private LLM',
+					'Automation with AI'
+				]}
 			></FactsCard>
 			<FactsCard
 				title="Keeping it personal?"
 				description="Often, one page will do it"
 				bullets={[
 					'Use Video',
-					'Be proud of your message',
+					'Tie all your socials together',
 					'Your vibe, your website',
-					'Fast | Simple | To the point'
+					'Fast | Simple | To the point',
+					'EASY PEASY FORMS'
 				]}
 			></FactsCard>
 			<FactsCard
 				title="Wanting to talk tech?"
 				description="Maybe it is already out there"
-				bullets={['QR codes', 'Using AI', 'Self Hosting', 'IFTTT Automation']}
+				bullets={['QR codes', 'Using AI', 'Self Hosting', 'IFTTT Automation', 'Chatbots']}
 			></FactsCard>
 		</div>
 	</section>
@@ -92,7 +100,7 @@
 		<Icon src="shapes" ctx="hand-1" size="5em" />
 		<span class="">&copy; {new Date().getFullYear()} whatarewebuilding. All rights reserved.</span>
 		<aside class="text-text-200 text-wash-300 flex flex-col justify-end text-right text-sm">
-			<span>Built by</span>
+			<span>Built by humans</span>
 			<a href="https://threejjjs.xyz">
 				<h5 class="m-0 text-right font-tertiary text-xl md:text-3xl">
 					three<span class="opacity-55">jjj</span>s
