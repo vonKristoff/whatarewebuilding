@@ -25,7 +25,7 @@
 	}
 
 	let padding = 56;
-	let strokeWidth = 16;
+	let strokeWidth = 20;
 	let dim = $state(0);
 	let drawKey = $state(0);
 
@@ -89,7 +89,7 @@
 
 	.base-svg :global(path) {
 		stroke: #4f3866;
-		stroke-width: 8px;
+		stroke-width: 10px;
 	}
 
 	.verb-svg :global(svg) {

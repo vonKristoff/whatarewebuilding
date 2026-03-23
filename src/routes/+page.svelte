@@ -91,10 +91,20 @@
 	<div class="flex items-center justify-between gap-2">
 		<Icon src="shapes" ctx="hand-1" size="5em" />
 		<span class="">&copy; {new Date().getFullYear()} whatarewebuilding. All rights reserved.</span>
-		<p>
+		<aside class="text-text-200 text-wash-300 flex flex-col justify-end text-right text-sm">
+			<span>Built by</span>
+			<a href="https://threejjjs.xyz">
+				<h5 class="m-0 text-right font-tertiary text-xl md:text-3xl">
+					three<span class="opacity-55">jjj</span>s
+					<br />
+				</h5>
+			</a>
+			<span class="text-xs">Interactive Tech</span>
+		</aside>
+		<!-- <p>
 			built by
 			<a aria-label="three jays interactive tech" href="https://threejjjs.xyz">threejjjs</a>
-		</p>
+		</p> -->
 	</div>
 </footer>
 
