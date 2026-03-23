@@ -2,6 +2,7 @@
 	import CirclePack from '$lib/components/CirclePacker';
 	import Browser from '$lib/components/Browser.svelte';
 	import HeroMessage from '$lib/components/HeroMessage.svelte';
+	import FatVerbCycle from '$lib/components/FatVerbCycle.svelte';
 	import FactsCard from '$lib/components/FactsCard.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 
@@ -15,7 +16,7 @@
 </script>
 
 <main>
-	<HeroMessage />
+	<FatVerbCycle />
 	<CirclePack />
 	<Browser />
 	<section class="grid place-content-center gap-4 bg-amber-300 px-8 py-32">
