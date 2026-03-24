@@ -8,7 +8,7 @@
 	import rawKeep from '$lib/assets/wawb-keep.svg?raw';
 	import rawBuild from '$lib/assets/wawb-build.svg?raw';
 	import rawShip from '$lib/assets/wawb-ship.svg?raw';
-	import rawCreate from '$lib/assets/wawb-create.svg?raw';
+	import rawSend from '$lib/assets/wawb-send.svg?raw';
 
 	function animatePaths(node: HTMLElement) {
 		const paths = node.querySelectorAll('path');
@@ -34,7 +34,7 @@
 		keep: rawKeep,
 		build: rawBuild,
 		ship: rawShip,
-		create: rawCreate
+		send: rawSend
 	};
 
 	$effect(() => {
@@ -88,7 +88,7 @@
 	}
 
 	.base-svg :global(path) {
-		stroke: #4f3866;
+		stroke: var(--col-black);
 		stroke-width: 10px;
 	}
 
@@ -98,7 +98,7 @@
 	}
 
 	.verb-svg :global(path) {
-		stroke: #4f3866;
+		stroke: var(--col-black);
 		stroke-width: var(--stroke-width);
 		stroke-linecap: round;
 		stroke-linejoin: round;

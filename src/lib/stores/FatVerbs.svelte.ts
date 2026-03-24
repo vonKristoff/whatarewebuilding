@@ -1,4 +1,4 @@
-const FATVERBS = ['make', 'keep', 'create', 'build', 'ship'] as const;
+const FATVERBS = ['make', 'keep', 'send', 'build', 'ship'] as const;
 type Verb = (typeof FATVERBS)[number];
 class FatVerbStore {
 	#current = $state<Verb | null>(null);

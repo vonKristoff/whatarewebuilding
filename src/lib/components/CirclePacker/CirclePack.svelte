@@ -106,6 +106,9 @@
 </div>
 
 <style>
+	:global(.target path) {
+		stroke: var(--color-black);
+	}
 	:global(.target[data-colour='blue']) {
 		fill: cornflowerblue;
 		/* fill: rgb(225, 181, 5); */
