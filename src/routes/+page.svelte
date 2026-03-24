@@ -92,6 +92,12 @@
 			<div class="text-right font-tertiary">
 				<span>Let's build websites!</span>
 			</div>
+			<p class="pt-16">
+				Ps. to see any example works - look <a
+					href="https://threejjjs.xyz"
+					aria-label="example works">here</a
+				> at what's been done by the team.
+			</p>
 		</div>
 	</section>
 </main>
