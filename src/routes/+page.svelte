@@ -31,11 +31,11 @@
 	</section>
 	<section class="flex flex-col bg-amber-200 px-8 py-32 items-center">
 		<article class="max-w-[60ch] flex flex-col gap-4">
-			
-			
-			
+
+
+
 			<h3><span class="text-3xl bg-amber-300">Are you thinking of integrating with an LLM chatbot for your business?</span></h3>
-			
+
 			<img src="/chatbot.svg" />
 <h4 class="font-bold my-4 text-right">Before the how - lets go over the what it can do:</h4>
 
@@ -63,7 +63,7 @@
 <p>You see, you don't need a smart AI model to attempt to solve any of our problems or understand the works of Shakespear - all it needs to do (which all it does do, in fact) is figure out basic language. The real data output in terms of real world responses is YOUR data - which is on YOUR server. The dumb LLM just figures out how to connect it based on the clients request!</p>
 
 <p>Google has single handedly been reducing models capacity, like an episode of Silicon Valley with <a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant</a> compression, in order to bring computation right down in order to run on a mobile device and still be effective. </p>
-	
+
 <p>This is the smoke and mirrors where the big Tech companies are misleading us - we dont need their trained models - all we need is a place to utilse language as an interface, and which runs at a fraction of the cost. </p>
 </aside>
 <p class="my-4"><span class="text-xl italic bg-amber-300">Yet, I digress; you can chat to me all about that IRL.</span></p>
@@ -194,5 +194,20 @@
 		@starting-style {
 			transform: translateY(0);
 		}
+	}
+	:global(h4) {
+		background: var(--color-amber-100);
+		color: var(--col-black);
+		padding: 0.625rem 1rem;
+		border-radius: 1.125rem;
+		border-bottom-right-radius: 0.25rem;
+		display: inline-block;
+		position: relative;
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: 0;
+		border-bottom-right-radius: 0;
+		border: 0.125rem solid var(--col-black);
+
 	}
 </style>
