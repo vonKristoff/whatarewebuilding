@@ -4,6 +4,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Global from '$lib/stores/Global.svelte';
 	import { MetaTags, deepMerge } from 'svelte-meta-tags';
+	import Footer from '$lib/components/Footer.svelte';
 	let { data, children } = $props();
 	// let metaTags = $derived(deepMerge(data.baseMetaTags, page.data.pageMetaTags));
 	Global.isMobile = data.isMobile;
@@ -15,3 +16,4 @@
 <MetaTags {...data.baseMetaTags} />
 
 {@render children?.()}
+<Footer />

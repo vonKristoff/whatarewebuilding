@@ -8,8 +8,9 @@
 		index?: string;
 		children?: Snippet;
 		footer?: string;
+		cta?: { url: string, label: string }
 	}
-	let { title, bullets, description, index, children, footer }: Props = $props();
+	let { title, bullets, description, index, children, footer, cta }: Props = $props();
 </script>
 
 <div class="flex flex-col items-center gap-8 overflow-clip rounded-xl border-4 bg-amber-300 p-8">
@@ -30,15 +31,18 @@
 	{/if}
 	{#if bullets}
 		<ul
-			class="flex grow-1 flex-col justify-center gap-2 font-secondary text-2xl md:text-lg lg:ml-8 lg:text-2xl"
+			class="flex grow flex-col justify-center gap-2 font-secondary text-2xl md:text-lg lg:ml-8 lg:text-2xl"
 		>
 			{#each bullets as fact}
 				<li class="list-disc"><span>{fact}</span></li>
 			{/each}
 		</ul>
 	{/if}
-	<div class="flex grow-1">
+	<div class="flex grow items-end">
 		{@render children?.()}
+		{#if cta}
+			<a href={cta.url} class="rounded-lg border-3 px-8 italic py-2 bg-amber-200">{cta.label}</a>
+		{/if}
 	</div>
 	{#if footer}
 		<div class="align-self-end w-full border-l-4 py-4 pl-8 text-accent">
