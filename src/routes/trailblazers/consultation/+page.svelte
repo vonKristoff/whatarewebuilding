@@ -21,6 +21,7 @@
             <ul class="flex flex-col list-disc *:ml-4 *:pl-4 *:text-lg gap-2">
                 <li>A full day planning and discussing a technical service</li>
                 <li>A fair follow up quote on building the features, based on the roadmap we will make together</li>
+                <li><strong>Special Discount</strong>: For a further £250 (within scope) I can build and deploy it all for you</li>
             </ul>
             <p>It's worth bearing in mind that not everything needs rebuilding from scratch, and that the smart action is to use something that already exists, and integrating the correct technology is then where the savings begin!</p>
 <h4 data-chat class="font-bold my-4 text-right">Sound good? DM me via our WhatsApp group 🤙</h4>
