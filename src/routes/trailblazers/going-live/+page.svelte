@@ -18,12 +18,13 @@
                 <li>capturing email</li>
                 <li>fixing things the AI just couldn't do</li>
             </ul>
-            <p class="bg-amber-300 border-l-2 p-4">This is for someone who has a site built already (say by AI) and just need a few tweaks to get this thing live.</p>
+            <p class="bg-amber-300 border-l-2 p-4">This is for someone who has a site built already (say by AI) and just need a few tweaks to get this thing live. You won't need this if you are using something like Squarespace.</p>
             <h4 class="font-bold my-4 text-right">So what exactly do I get?</h4>
             <ul class="flex flex-col list-disc *:ml-4 *:pl-4 *:text-lg gap-2">
                 <li>Setup required accounts with you</li>
                 <li>Design tweaks</li>
                 <li>Your site deployed and bound to a domain name</li>
+                <li>Free Hosting!</li>
                 <li>Any code required handling email capture</li>
             </ul>
 <h4 data-chat class="font-bold my-4 text-right">Sound good? DM me via our WhatsApp group 🤙</h4>
