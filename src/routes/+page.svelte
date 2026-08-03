@@ -53,7 +53,7 @@
 			></FactsCard>
 		</div>
 	</section>
-	<section class="flex flex-row bg-amber-300 px-8 py-32 items-center justify-around gap-4">
+	<section class="flex flex-col md:flex-row bg-amber-300 px-8 py-32 items-center justify-around gap-4">
 	<div class="flex flex-row gap-4 text-4xl min-w-0 flex-1">
 		<span class="flex-0">🤖</span>
 		<p class="font-tertiary text-4xl flex-1 min-w-0 wrap-break-word">Want to know more about what integrating an AI Chatbot into your site?</p>
