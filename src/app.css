@@ -42,12 +42,25 @@ iframe {
 	color: var(--col-black);
 	padding: 0.625rem 1rem;
 	border-radius: 1.125rem;
-	border-bottom-right-radius: 0.25rem;
 	display: inline-block;
 	position: relative;
 	max-width: 80%;
+	border: 0.125rem solid var(--col-black);
 	margin-left: auto;
 	margin-right: 0;
 	border-bottom-right-radius: 0;
-	border: 0.125rem solid var(--col-black);
+}
+
+[data-chat='left'] {
+	margin-left: 0;
+	margin-right: auto;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0.25rem;
+}
+
+[data-chat='right'] {
+	margin-left: auto;
+	margin-right: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0.25rem;
 }
