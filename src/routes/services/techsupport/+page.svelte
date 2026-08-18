@@ -74,7 +74,7 @@
 			title: 'Is it ... YOU?',
 			messages: [
 				{ handle: '@butter-toast', bg: 'bg-yellow-200!', side: 'right', text: 'Do I have to swipe butter to the left on my toast if I enjoy it?' },
-				{ handle: '@beyond-the-grave', bg: 'bg-slate-200!', text: 'Is this a real message from gran or a scam? - She died 8 years ago... it that what people mean by being Ghosted?' },
+				{ handle: '@beyond-the-grave', bg: 'bg-slate-200!', text: 'Is this a real message from gran or a scam? - She died 8 years ago... is that what people mean by being Ghosted?' },
 				{ handle: '@digital-pockets', bg: 'bg-emerald-200!', side: 'right', text: 'Why are they telling me to empty my CASH? they surely mean my wallet - but they insist my browser has it - I swear I use biometrics on my Banking app.' },
 				{ handle: '@pet-detective', bg: 'bg-violet-200!', text: 'Now they ask whether my first pet went to the same school as my brother.' },
 				{ handle: '@end-of-an-era', bg: 'bg-sky-200!', side: 'right', text: 'My hotmail email is going to be SHUTDOWN - what do I do?' }
