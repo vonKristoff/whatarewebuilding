@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Icon from '$lib/components/Icon.svelte';
 	import ChatGroup from './ChatGroup.svelte';
+	import supman from "$lib/assets/supman.svg"
 
 	const EMAIL = 'jc@techsup.uk';
 	const PHONE = '07773800950';
@@ -87,9 +88,11 @@
 	<section class="flex flex-col bg-amber-200 px-8 py-32 items-center">
 		<article class="w-full max-w-3xl flex flex-col gap-4 ">
 			<header class="flex flex-col gap-4 mb-12">
+				<img src={supman} alt="it man" class="self-center w-[30%]"/>
 				<h1 class="self-center max-w-[60ch]"><span class="text-3xl md:text-5xl font-tertiary">Fix all kinds of IT problems</span></h1>
 				<!-- <p class="self-center text-xl max-w-[60ch] my-8">Message and get a quote – hourly rates available</p> -->
 				<p class="self-center text-xl max-w-[60ch] my-8">We are all fed up with tech, and it's simply getting in the way of how simple things used to be.</p>
+				<p class="self-center text-xl mb-12 max-w-[60ch]">I come to you! If I cannot fix it - no fee</p>
 				<div class="flex flex-wrap gap-2 mb-8">
 					{#each issues as issue (issue)}
 						<span class="rounded-full border-2 border-black bg-amber-300 px-4 py-1 font-secondary text-sm">
@@ -131,7 +134,7 @@
 				<p data-chat class="self-center max-w-[60ch] bg-amber-300 border-l-2 p-4">I'm a local dad, and my name is <strong>JC</strong>.</p>
 			</section>
 			<div class="flex flex-col gap-4 mt-8">
-				<p class="self-center text-xl max-w-[60ch]">Anyway - really good hourly rates starting at <strong>£25 per hour</strong>.</p>
+				<p class="self-center text-xl max-w-[60ch]">Anyway - really good hourly rates starting at <strong>£20 per hour</strong>.</p>
 				<p class="self-center max-w-[60ch]">Don't drive yourself round the bend - get a professional to sort it out.</p>
 				<div class="flex flex-col gap-4 sm:flex-row">
 					<a
