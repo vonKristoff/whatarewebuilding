@@ -6,6 +6,7 @@
 	import FactsCard from '$lib/components/FactsCard.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 	import printer from "$lib/assets/sup.svg"
+	import integrai from "$lib/assets/integrate.svg"
 
 	const EMAIL = 'hello@whatarewebuilding.xyz';
 	let copy = $state(false);
@@ -59,11 +60,12 @@
         <div class="flex flex-col gap-4">
 			<p class="font-secondary text-4xl flex-1 min-w-0 wrap-break-word">Do you need general Tech Support at home - fixing any IT related problem?</p>
 			<a href="/services/techsupport" aria-label="Read more about tech support" class=""><img src={printer} alt="tech support printer"/></a>
-           	<a href="/services/techsupport" aria-label="Read more about tech support" class="self-end text-center rounded-lg border-3 px-8 italic py-2 bg-amber-200 flex-0 whitespace-nowrap w-fit text-base md:text-inherit">Read more</a>
+			<a href="/services/techsupport" aria-label="Read more about tech support" class="self-end text-center rounded-lg border-3 px-8 italic py-2 bg-amber-200 flex-0 whitespace-nowrap w-fit text-base md:text-inherit">Read more</a>
         </div>
         <div class="flex flex-col gap-4">
-           	<div class="flex flex-row gap-4 text-4xl min-w-0 flex-1">
-          		<span class="flex-0">🤖</span>
+			<div class="flex flex-col gap-4 ">
+				<!-- <span class="flex-0">🤖</span> -->
+				<a href="/services/chatbot" aria-label="integrate an ai" class=""><img src={integrai} alt="integrate an ai diagram"/></a>
           		<p class="font-secondary text-4xl flex-1 min-w-0 wrap-break-word">Want to know more about what integrating an AI Chatbot into your site?</p>
            	</div>
            	<a href="/services/chatbot" aria-label="Read more about AI chatbot integration" class="self-end text-center rounded-lg border-3 px-8 italic py-2 bg-amber-200 flex-0 whitespace-nowrap w-fit text-base md:text-inherit">Read more</a>

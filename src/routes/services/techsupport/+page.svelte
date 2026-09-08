@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '$lib/components/Icon.svelte';
 	import ChatGroup from './ChatGroup.svelte';
-	import supman from "$lib/assets/supman.svg"
+	import supman from "$lib/assets/dudesup.svg"
 
 	const EMAIL = 'jc@techsup.uk';
 	const PHONE = '07773800950';
@@ -88,7 +88,7 @@
 	<section class="flex flex-col bg-amber-200 px-8 py-32 items-center">
 		<article class="w-full max-w-3xl flex flex-col gap-4 ">
 			<header class="flex flex-col gap-4 mb-12">
-				<img src={supman} alt="it man" class="self-center w-[30%]"/>
+				<img src={supman} alt="it man" class="self-center w-[100%]"/>
 				<h1 class="self-center max-w-[60ch]"><span class="text-3xl md:text-5xl font-tertiary">Fix all kinds of IT problems</span></h1>
 				<!-- <p class="self-center text-xl max-w-[60ch] my-8">Message and get a quote – hourly rates available</p> -->
 				<p class="self-center text-xl max-w-[60ch] my-8">We are all fed up with tech, and it's simply getting in the way of how simple things used to be.</p>
